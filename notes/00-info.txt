@@ -1,0 +1,35 @@
+Создать виртуальную среду в своём домашнем каталоге
+python3.12 -m venv ~/micro
+чтобы установить определенную версию Python
+virtualenv beach --python=python3.9
+для активации в терминале
+source ~/micro/bin/activate
+shell prompt  должна выглядуть при включении так
+(micro) zenx@pc:~ zenx$
+проверить
+which python
+-----------------------------------------------------------
+pip:
+django: although this goes without saying.
+django-extensions: to run independent workers inside Django’s context.
+djangorestframework: to build REpresentational State Transfer Application Programming
+Interfaces (RESTful APIs) with Django.
+requests: to interact with RESTful APIs.
+pymongo: to connect to and work with a MongoDB database as our application will do.
+djongo: to enable ORM for MongoDB.
+pytz: required for djongo.
+pika: to use a RabbitMQ message broker directly to send and receive task messages.
+celery: to offload tasks to workers from Django applications.
+flower: to monitor Celery task execution.
+redis: to enable Redis to serve as a vehicle for Celery.
+httpie: to test urls
+----------------------------------------------------------
+Создайть проект Django для приложения подписки:
+```
+django-admin startproject subscription_registration
+```
+----------------------------------------------------------
+CRUD operations on MongoDB with Django ORM
+Добавление приложения-подписки в наш проект Django
+cd subscription_registration
+python3 manage.py startapp subscription

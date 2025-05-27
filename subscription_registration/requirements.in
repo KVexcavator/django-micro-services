@@ -1,0 +1,12 @@
+django
+django-extensions
+djangorestframework
+Interfaces
+requests
+motor
+pytz
+pika
+celery
+flower
+redis
+httpie

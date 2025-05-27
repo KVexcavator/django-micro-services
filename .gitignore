@@ -1,0 +1,12 @@
+*.sqlite3
+.idea
+.env
+venv
+.DS_Store
+__pycache__
+.mypy_cache
+media
+Pipfile
+static
+staticfiles
+logs

@@ -1,0 +1,24 @@
+pip-tools - это инструмент для управления зависимостями в Python 
+```sh
+pip install pip-tools
+```
+Создаем файл requirements.in с нефиксированными версиями
+Компилируем зависимости в requirements.txt:
+```sh
+pip-compile
+```
+Устанавливаем зафиксированные зависимости:
+```sh
+pip-sync
+```
+
+pip-tools
+
+Позволяет легко обновлять зависимости:  
+```sh
+pip-compile --upgrade
+```
+Поддерживает файлы для dev-зависимостей:  
+```sh
+pip-compile requirements-dev.in
+```

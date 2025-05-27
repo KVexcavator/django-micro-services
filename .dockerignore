@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caching directories
+.cache
+.pytest_cache
+
+# Test artifacts
+htmlcov/
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Django static and media files
+/static
+/media
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# PyCharm-specific files
+.idea/
+*.iml
+
+# Database files
+*.sqlite3
+*.db
+
+# Log files
+*.log
+
+# Local configuration files
+.local/
+
+# Directory for file-based sqlite3 database
+db.sqlite3
+
+# Backup files
+*.bak
+
+# Other files
+.DS_Store
+Thumbs.db
