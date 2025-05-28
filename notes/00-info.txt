@@ -28,8 +28,20 @@ httpie: to test urls
 ```
 django-admin startproject subscription_registration
 ```
-----------------------------------------------------------
-CRUD operations on MongoDB with Django ORM
-Добавление приложения-подписки в наш проект Django
-cd subscription_registration
-python3 manage.py startapp subscription
+======================================
+CRUD operations on MongoDB with Beanie
+
+--------------------------------------
+побежало
+Starting development server at http://0.0.0.0:8000/
+как проверить с httpie
+http GET http://localhost:9001/addresses/
+--
+http POST http://localhost:9001/addresses/ \
+  name="Petya" \
+  address="Pushkina Test" \
+  postalcode="654321" \
+  city="SPB" \
+  country="Russia" \
+  email="petya_test@example.com"
+===================================

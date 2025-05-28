@@ -1,0 +1,3 @@
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+runserver (по умолчанию) использует WSGI, а WSGI — это синхронный протокол. Он не умеет корректно обрабатывать async def и await. Из-за этого и происходит конфликт event loop'ов.
+===========================================

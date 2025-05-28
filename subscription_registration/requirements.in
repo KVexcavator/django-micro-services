@@ -10,3 +10,6 @@ celery
 flower
 redis
 httpie
+beanie
+pydantic[email]
+uvicorn
