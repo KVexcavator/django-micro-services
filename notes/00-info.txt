@@ -44,4 +44,12 @@ http POST http://localhost:9001/addresses/ \
   city="SPB" \
   country="Russia" \
   email="petya_test@example.com"
+--
+http GET http://localhost:9001/addresses/683738d31f840f4b2ec496cc/
+--
+http PUT http://localhost:9001/addresses/683738d31f840f4b2ec496cc/ address="Updated Street"
+
+--
+http DELETE http://localhost:9001/addresses/683738d31f840f4b2ec496cc/
+
 ===================================
